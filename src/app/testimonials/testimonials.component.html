@@ -1,0 +1,26 @@
+<div class="testimonial-header text-center">
+  <div class="dropdown-divider"></div>
+  <h2>Testimonials</h2>
+  <div class="dropdown-divider"></div>
+</div>
+<div class="testimonials">
+  <div class="testimonial" *ngFor="let testimonial of testimonials">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="img">
+              <img class="img-fluid" [attr.src]="testimonial.img">
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="name" [innerHTML]="testimonial.name"></div>
+            <div class="text" [innerHTML]="testimonial.text"></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>

@@ -1,0 +1,9 @@
+.sections {
+  .section {
+    margin: 4em 2em;
+
+    @media all and (max-width: 576px) {
+      margin: 2em 0;
+    }
+  }
+}

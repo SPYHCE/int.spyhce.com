@@ -1,0 +1,54 @@
+.app-footer {
+  margin-top: 2em;
+  min-height: 15em;
+  
+  .contact-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .col-sm {
+      padding: 2em;
+    }
+
+    .contact {
+      .contact-text {
+
+        div {
+          margin-bottom: 0.5em;
+        }
+
+        .location {
+          font-weight: 300;
+        }
+        .name {
+          font-weight: bold;
+        }
+        .email {
+          font-weight: 300;
+        }
+        .phone {
+          font-weight: 100;
+        }
+      }
+
+      .card-title {
+        font-size: 24px;
+      }
+    }
+
+    .contact-img {
+      max-width: 80%;
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .contact-img {
+    float: none !important;
+  }
+  .contact-row {
+    .col-sm {
+      text-align: center;
+    }
+  }
+}

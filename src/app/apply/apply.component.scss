@@ -1,0 +1,25 @@
+.select-mail {
+  cursor: pointer;
+}
+
+.card-body {
+
+  .card-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2em;
+  }
+}
+
+.apply-btn {
+  padding: 1em 2em;
+}
+
+.apply-row {
+  @media all and (max-width: 768px) {
+    .col-sm {
+      margin: 1em;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media all and (max-width: 576px) {
+  .img-fluid {
+    max-width: 50%;
+  }
+
+  .heart {
+    max-width: 60px;
+    max-height: 60px;
+
+    margin: 1em 0;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .heart {
+    max-width: 50%;
+  }
+}
+
+@media all and (min-width: 1200px) { 
+  .img-fluid {
+    max-width: 80%;
+  }
+}

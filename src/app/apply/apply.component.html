@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-body">
+    <div class="card-title">Apply Now!</div>
+    <div class="card-text text-center">
+      <div class="row apply-row">
+        <div class="col-sm">
+          <p>Send us an e-mail</p>
+          <button matTooltip="Click to copy" 
+            matTooltipPosition="above"
+            (click)="copyEmailToClipboard($event)"
+            class="btn apply-btn spyhce-red">hello@spyhce.com</button> 
+        </div>
+        <div class="col-sm">
+          <p>Apply via LinkedIn</p>
+          <button class="btn apply-btn linkedin" type="button" (click)="applyLinkedin()">Apply via LinkedIn</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
