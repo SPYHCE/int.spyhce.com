@@ -29,10 +29,13 @@ export class ApplyComponent implements OnInit {
       duration: 3000,
     });
     document.body.removeChild(txtArea);
-    //
-    // if (util.mobileCheck()) {
+    /**
+     * currently enable google mail new tab only on DESKTOP
+     * on mobile it opens an old version
+     */
+    if (!util.mobileCheck()) {
     window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hello@spyhce.com&tf=1&su=TDC%20Apply', '_blank');
-    // }
+    }
   }
 
 }
