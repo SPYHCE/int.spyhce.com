@@ -46,11 +46,14 @@
       margin-left: 2em;
     }
   }
+  .content {
+    text-align: justify;
+  }
 }
 
 body {
   @media all and (min-width: 576px) {
-    user-select: none;
+    // user-select: none;
   }
 
   font-family: "Roboto" !important;
