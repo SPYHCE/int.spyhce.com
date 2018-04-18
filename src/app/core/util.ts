@@ -3,8 +3,8 @@ interface WindowPlus extends Window {
 }
 
 class Util {
-  navigator: Navigator;
-  window: WindowPlus;
+  private navigator: Navigator;
+  private window: WindowPlus;
 
   constructor() {
     this.navigator = navigator;

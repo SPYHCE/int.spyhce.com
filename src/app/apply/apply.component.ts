@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 
+import { util } from '@core';
+
 @Component({
   selector: 'app-apply',
   templateUrl: './apply.component.html',
@@ -28,6 +30,9 @@ export class ApplyComponent implements OnInit {
     });
     document.body.removeChild(txtArea);
     //
+    // if (util.mobileCheck()) {
+    window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hello@spyhce.com&tf=1&su=TDC%20Apply', '_blank');
+    // }
   }
 
 }
