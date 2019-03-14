@@ -10,7 +10,7 @@ export const testimonials = [
       ramanem pe tehnologii vechi.
     `,
     translated_text: `
-      Spyhce is the second company at which I have worked until now and I feel that i have managed
+      Spyhce is the second company that I worked for until now and I feel that i have managed
       to integrate myself a lot better here than at my previous company. Up until now, I have learned a lot of
       new things and I am quite convinced that I will continue to learn a lot more. The fact that we work with
       the latest technologies helps a lot. The technologies evolve a lot from day to day and I realy enjoy that
